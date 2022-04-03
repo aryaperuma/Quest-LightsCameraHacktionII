@@ -1,0 +1,41 @@
+{
+  "name": "Quest!",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "pm2-runtime start ecosystem.config.js --env production",
+    "start-dev": "cross-env NODE_ENV=development nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    //git 
+  },
+  "keywords": [],
+  "author": "Arya Peruma",
+  "bugs": {
+    "url": //issues link
+  },
+  "homepage": //readme link
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.11.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.12.10",
+    "moviedb-promise": "^3.1.9",
+    "node-fetch": "^2.6.1",
+    "pm2": "^5.0.4",
+    "socket.io": "^4.1.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  },
+  "engines": {
+    "node": "16.3.0"
+  }
+}
